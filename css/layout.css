@@ -1,0 +1,45 @@
+#a{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#b{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#c{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#d{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#e{
+  float: left;
+  clear: both;
+  margin-left: 434px;
+}
+
+#f{
+  float: left;
+}
+
+#g{
+  clear: both;
+  float: left;
+  margin-left: 434px;
+} 
+
+#h{
+  float: left;
+}
+
+#i{
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+}
