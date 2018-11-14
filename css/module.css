@@ -42,3 +42,5 @@
   border: .5px solid black;
   background: blue;
 }
+
+@media screen and (min-width: 800px) {

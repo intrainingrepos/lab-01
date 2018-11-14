@@ -19,8 +19,8 @@
 }
 
 #e{
-  float: left;
   clear: both;
+  float: left;
   margin-left: 434px;
 }
 
@@ -42,4 +42,36 @@
   clear: both;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-width: 800px) {
+
+  #a{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #b{
+    float: left;
+    margin-left: 194px;
+  }
+  
+  #c{
+    display: inline-block;
+  }
+  
+  #d{
+    clear: both;
+    margin-right: 25px;
+    display: inline-block;
+  }
+  
+  #e, #f, #g, #h{
+    display: inline-block;
+  }
+  
+  #i{
+    
+  }
+
 }
