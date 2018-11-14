@@ -1,87 +1,93 @@
 #a{
   height: 75px;
   width: 480px;
-  border: .5px solid black;
-  background: blue;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 #b{
   height: 150px;
   width: 480px;
-  border: .5px solid black;
-  background: blue;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 #c{
   height: 125px;
   width: 480px;
-  border: .5px solid black;
-  background: blue;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 #d{
   height: 125px;
   width: 480px;
-  border: .5px solid black;
-  background: blue;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 #e{
-  float: left;
-  clear: both;
   width: 240px;
   height: 250px;
-  border: .5px solid black;
-  background: blue;
-  margin-left: 434px;
 }
 
 #f{
-  float: left;
   width: 240px;
   height: 250px;
-  border: .5px solid black;
-  background: blue;
 }
 
-
 #g{
-  clear: both;
-  float: left;
   width: 240px;
   height: 250px;
-  border: .5px solid black;
-  background: blue;
-  margin-left: 434px;
 } 
 
 #h{
-  float: left;
   width: 240px;
   height: 250px;
-  border: .5px solid black;
-  background: blue;
 }
 
 #i{
-  clear: both;
   height: 80px;
   width: 480px;
-  border: .5px solid black;
-  background: blue;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-/* body{
-  margin-right: auto;
-  margin-left: auto;
-} */
+@media screen and (min-width: 800px) {
+
+  #a{
+    height: 100px;
+    width: 960px;
+  }
+  
+  #b{
+    height: 600px;
+    width: 200px;
+  }
+  
+  #c{
+    height: 200px;
+    width: 380px;
+  }
+  
+  #d{
+    height: 200px;
+    width: 380px;
+  }
+  
+  #e{
+    width: 190px;
+    height: 250px;
+  }
+  
+  #f{
+    width: 190px;
+    height: 250px;
+  }
+  
+  #g{
+    width: 190px;
+    height: 250px;
+  } 
+  
+  #h{
+    width: 190px;
+    height: 250px;
+  }
+  
+  #i{
+    height: 150px;
+    width: 760px;
+  }
+
+}

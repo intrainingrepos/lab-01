@@ -1,0 +1,77 @@
+#a{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#b{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#c{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#d{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#e{
+  clear: both;
+  float: left;
+  margin-left: 434px;
+}
+
+#f{
+  float: left;
+}
+
+#g{
+  clear: both;
+  float: left;
+  margin-left: 434px;
+} 
+
+#h{
+  float: left;
+}
+
+#i{
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 800px) {
+
+  #a{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #b{
+    float: left;
+    margin-left: 194px;
+  }
+  
+  #c{
+    display: inline-block;
+  }
+  
+  #d{
+    clear: both;
+    margin-right: 25px;
+    display: inline-block;
+  }
+  
+  #e, #f, #g, #h{
+    display: inline-block;
+  }
+  
+  #i{
+    
+  }
+
+}

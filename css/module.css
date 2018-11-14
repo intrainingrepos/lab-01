@@ -1,0 +1,46 @@
+#a{
+  border: .5px solid black;
+  background: blue;
+}
+
+#b{
+  border: .5px solid black;
+  background: blue;
+}
+
+#c{
+  border: .5px solid black;
+  background: blue;
+}
+
+#d{
+  border: .5px solid black;
+  background: blue;
+}
+
+#e{
+  border: .5px solid black;
+  background: blue;
+}
+
+#f{
+  border: .5px solid black;
+  background: blue;
+}
+
+#g{
+  border: .5px solid black;
+  background: blue;
+} 
+
+#h{
+  border: .5px solid black;
+  background: blue;
+}
+
+#i{
+  border: .5px solid black;
+  background: blue;
+}
+
+@media screen and (min-width: 800px) {
