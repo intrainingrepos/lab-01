@@ -44,34 +44,55 @@
   margin-left: auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 
   #a{
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    line-height: 100px;
   }
   
   #b{
     float: left;
-    margin-left: 194px;
+    margin-left: 9px;
+    line-height: 200px;
   }
   
   #c{
-    display: inline-block;
+    float: left;
+    line-height: 200px;
   }
   
   #d{
-    clear: both;
-    margin-right: 25px;
-    display: inline-block;
+    float: left;
+    line-height: 200px;
   }
   
-  #e, #f, #g, #h{
-    display: inline-block;
+  #e{
+    clear: both;
+    float: left;
+    line-height: 250px; 
+  } 
+  
+  #f{
+    float: left;
+    line-height: 250px;
+
+  } 
+  
+  #g{
+    float: left;
+    line-height: 250px;
+  } 
+  
+  #h{
+    float: left;
+    line-height: 250px;
   }
   
   #i{
-    
+    float: left;
+    line-height: 150px;
   }
 
 }
