@@ -1,0 +1,92 @@
+#a{
+  border: .2px solid black;
+  background: blue;
+}
+
+#b{
+  border: .2px solid black;
+  background: red;
+}
+
+#c{
+  border: .2px solid black;
+  background: green;
+}
+
+#d{
+  border: .2px solid black;
+  background: aqua;
+}
+
+#e{
+  border: .2px solid black;
+  background: purple;
+}
+
+#f{
+  border: .2px solid black;
+  background: orange;
+}
+
+#g{
+  border: .2px solid black;
+  background: crimson;
+} 
+
+#h{
+  border: .2px solid black;
+  background: violet;
+}
+
+#i{
+  border: .2px solid black;
+  background: olive;
+}
+
+@media screen and (min-width: 768px) {
+
+  #a{
+    border: .2px solid black;
+    background: blue;
+  }
+  
+  #b{
+    border: .2px solid black;
+    background: red;
+  }
+  
+  #c{
+    border: .2px solid black;
+    background: green;
+  }
+  
+  #d{
+    border: .2px solid black;
+    background: aqua;
+  }
+  
+  #e{
+    border: .2px solid black;
+    background: purple;
+  }
+  
+  #f{
+    border: .2px solid black;
+    background: orange;
+  }
+  
+  #g{
+    border: .2px solid black;
+    background: crimson;
+  } 
+  
+  #h{
+    border: .2px solid black;
+    background: violet;
+  }
+  
+  #i{
+    border: .2px solid black;
+    background: olive;
+  }
+}
