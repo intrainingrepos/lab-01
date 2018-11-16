@@ -39,7 +39,7 @@
 }
 
 #i{
-  border: .2px solid black;
+  /* border: .2px solid black; */
   background: olive;
 }
 
@@ -66,27 +66,27 @@
   }
   
   #e{
-    border: .2px solid black;
+    /* border: .2px solid black; */
     background: purple;
   }
   
   #f{
-    border: .2px solid black;
+    /* border: .2px solid black; */
     background: orange;
   }
   
   #g{
-    border: .2px solid black;
+    /* border: .2px solid black; */
     background: crimson;
   } 
   
   #h{
-    border: .2px solid black;
+    /* border: .2px solid black; */
     background: violet;
   }
   
   #i{
-    border: .2px solid black;
+    /* border: .2px solid black; */
     background: olive;
   }
 }

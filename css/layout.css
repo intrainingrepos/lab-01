@@ -1,4 +1,4 @@
-#a{
+/* #a{
   margin-right: auto;
   margin-left: auto;
 }
@@ -6,9 +6,9 @@
 #b{
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-#c{
+/* #c{
   margin-right: auto;
   margin-left: auto;
 }
@@ -16,12 +16,12 @@
 #d{
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 #e{
-  clear: both;
+  /* clear: both; */
   float: left;
-  margin-left: 434px;
+  /* margin-left: 434px; */
 }
 
 #f{
@@ -29,9 +29,9 @@
 }
 
 #g{
-  clear: both;
+  /* clear: both; */
   float: left;
-  margin-left: 434px;
+  /* margin-left: 434px; */
 } 
 
 #h{
@@ -45,6 +45,10 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  div:nth-of-type(4) {
+    float:left;
+  }
 
   #a{
     margin-left: auto;
