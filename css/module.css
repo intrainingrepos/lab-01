@@ -43,6 +43,55 @@
   background: olive;
 }
 
+@media screen and (min-width: 600px){
+
+  #a{
+    border: .2px solid black;
+    background: rgb(0, 255, 0);
+  }
+  
+  #b{
+    border: .2px solid black;
+    background: rgb(80, 3, 3);
+  }
+  
+  #c{
+    border: .2px solid black;
+    background: rgb(248, 146, 51);
+  }
+  
+  #d{
+    border: .2px solid black;
+    background: rgb(45, 87, 87);
+  }
+  
+  #e{
+    border: .2px solid black;
+    background: rgb(241, 47, 241);
+  }
+  
+  #f{
+    border: .2px solid black;
+    background: rgb(22, 57, 172);
+  }
+  
+  #g{
+    border: .2px solid black;
+    background: rgb(20, 173, 220);
+  } 
+  
+  #h{
+    border: .2px solid black;
+    background: rgb(99, 6, 99);
+  }
+  
+  #i{
+    border: .2px solid black;
+    background: rgb(240, 240, 7);
+  
+  }
+}
+
 @media screen and (min-width: 768px) {
 
   #a{
