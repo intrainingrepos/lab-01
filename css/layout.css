@@ -1,75 +1,131 @@
-#e{
-  float: left;
+header{
+  width: 100%;
+  height: 10%;
+  display: flex;
 }
 
-#f{
-  float: left;
+nav {
+  width: 100%;
+  height: 20%;
+  display: flex;
 }
 
-#g{
-  float: left;
-} 
-
-#h{
-  float: left;
+.portionOne {
+  width: 100%;
+  height: 17%;
+  display: flex;
 }
 
-#i{
- float: left;
+.portionOne div {
+  width: 100%;
+  height: 17%;
+  display: flex;
+}
+
+.portionTwo {
+  width: 100%;
+  height: 66%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portionTwo div {
+  width: 50%;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+@media screen and (min-width: 600px){
+
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header {
+    line-height: 100px;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    display: flex;
+    line-height: 200px;
+    flex-wrap: wrap;
+  }
+  
+  main {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .portionOne {
+    display: flex;
+    line-height: 200px;
+    display: wrap;
+  }
+  
+  .portionTwo {
+    display: flex;
+    line-height: 250px; 
+    flex-wrap: wrap;
+  } 
+  
+  footer{
+    display: flex;
+    line-height: 150px;
+    flex-wrap: wrap;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
 
-  div:nth-of-type(4) {
-    float:left;
+  body {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  #a{
-    margin-left: auto;
-    margin-right: auto;
+  header {
+    display: flex;
+    flex-wrap: wrap;
     line-height: 100px;
   }
   
-  #b{
-    float: left;
-    margin-left: 9px;
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 200px;
+  }
+
+  main {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .portionOne {
+    display: flex;
+    display: wrap;
     line-height: 200px;
   }
   
-  #c{
-    float: left;
-    line-height: 200px;
-  }
-  
-  #d{
-    float: left;
-    line-height: 200px;
-  }
-  
-  #e{
-    clear: both;
-    float: left;
+  .portionTwo {
+    display: flex;
+    flex-wrap: wrap;
     line-height: 250px; 
   } 
   
-  #f{
-    float: left;
-    line-height: 250px;
-
-  } 
-  
-  #g{
-    float: left;
-    line-height: 250px;
-  } 
-  
-  #h{
-    float: left;
-    line-height: 250px;
-  }
-  
-  #i{
-    float: left;
+  footer {
+    display: flex;
+    flex-wrap: wrap;
     line-height: 150px;
   }
 

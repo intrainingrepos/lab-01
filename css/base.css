@@ -1,104 +1,76 @@
-body {
-  width: 500px;
-  margin: 0px auto;
+html {
+  box-sizing: border-box;
   text-align: center;
 }
 
-#a{
+body {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 
+header {
   width: 480px;
   height: 75px;
 }
 
-#b{
+nav {
   width: 480px;
   height: 150px;
 }
 
-#c{
+.portionOne{
   width: 480px;
   height: 125px;
 }
 
-#d{
-  width: 480px;
-  height: 125px;
-}
-
-#e{
+.portionTwo {
   width: 240px;
   height: 250px;
 }
 
-#f{
-  width: 240px;
-  height: 250px;
-}
-
-#g{
-  width: 240px;
-  height: 250px;
-} 
-
-#h{
-  width: 240px;
-  height: 250px;
-}
-
-#i{
+footer{
   width: 480px;
   height: 80px;
+} */
+
+@media screen and (min-width: 600px) {
+  body {
+    max-width: 768px;
+  }
 }
 
 @media screen and (min-width: 768px) {
 
   body {
     width: 980px;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  #a{
+/* 
+  header{
     width: 960px;
     height: 100px;
   }
   
-  #b{
+  nav{
     width: 200px;
     height: 600px;
   }
   
-  #c{
+  .portionOne {
     width: 380px;
     height: 200px;
   }
   
-  #d{
-    width: 380px;
-    height: 200px;
-  }
-  
-  #e{
+  .portionTwo{
     width: 190px;
     height: 250px;
   }
   
-  #f{
-    width: 190px;
-    height: 250px;
-  }
-  
-  #g{
-    width: 190px;
-    height: 250px;
-  } 
-  
-  #h{
-    width: 190px;
-    height: 250px;
-  }
-  
-  #i{
+  footer{
     width: 760px;
     height: 150px;
   }
 
-}
+} */
