@@ -1,142 +1,140 @@
-#a{
-  border: .2px solid black;
+header {
+  border: .5px solid black;
   background: blue;
 }
 
-#b{
-  border: .2px solid black;
+aside {
+  border: .5px solid black;
   background: red;
 }
 
-#c{
-  border: .2px solid black;
+.portionOne div:nth-child(1) {
+  border: .5px solid black;
   background: green;
 }
 
-#d{
-  border: .2px solid black;
+.portionOne div:nth-child(2) {
+  border: .5px solid black;
   background: aqua;
 }
 
-#e{
-  border: .2px solid black;
+.portionTwo div:nth-child(1) {
+  border: .5px solid black;
   background: purple;
 }
 
-#f{
-  border: .2px solid black;
+.portionTwo div:nth-child(2) {
+  border: .5px solid black;
   background: orange;
 }
 
-#g{
-  border: .2px solid black;
+.portionTwo div:nth-child(3) {
+  border: .5px solid black;
   background: crimson;
 } 
 
-#h{
-  border: .2px solid black;
+.portionTwo div:nth-child(4) {
+  border: .5px solid black;
   background: violet;
 }
 
-#i{
-  border: .2px solid black;
+footer {
+  border: .5px solid black;
   background: olive;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
 
-  #a{
-    border: .2px solid black;
+  header {
+    border: .5px solid black;
     background: rgb(0, 255, 0);
   }
   
-  #b{
-    border: .2px solid black;
+  aside {
+    border: .5px solid black;
     background: rgb(80, 3, 3);
   }
   
-  #c{
-    border: .2px solid black;
+  .portionOne div:nth-child(1) {
+    border: .5px solid black;
     background: rgb(248, 146, 51);
   }
   
-  #d{
-    border: .2px solid black;
+  .portionOne div:nth-child(2) {
+    border: .5px solid black;
     background: rgb(45, 87, 87);
   }
   
-  #e{
-    border: .2px solid black;
+  .portionTwo div:nth-child(1) {
+    border: .5px solid black;
     background: rgb(241, 47, 241);
   }
   
-  #f{
-    border: .2px solid black;
+  .portionTwo div:nth-child(2) {
+    border: .5px solid black;
     background: rgb(22, 57, 172);
   }
   
-  #g{
-    border: .2px solid black;
+  .portionTwo div:nth-child(3) {
+    border: .5px solid black;
     background: rgb(20, 173, 220);
   } 
   
-  #h{
-    border: .2px solid black;
+  .portionTwo div:nth-child(4) {
+    border: .5px solid black;
     background: rgb(99, 6, 99);
   }
   
-  #i{
-    border: .2px solid black;
+  footer {
+    border: .5px solid black;
     background: rgb(240, 240, 7);
-  
   }
 }
 
 @media screen and (min-width: 768px) {
 
-  #a{
-    border: .2px solid black;
+  header {
+    border: .5px solid black;
     background: blue;
   }
   
-  #b{
-    border: .2px solid black;
+  aside {
+    border: .5px solid black;
     background: red;
   }
   
-  #c{
-    border: .2px solid black;
+  .portionOne div:nth-child(1) {
+    border: .5px solid black;
     background: green;
   }
   
-  #d{
-    border: .2px solid black;
+  .portionOne div:nth-child(2) {
+    border: .5px solid black;
     background: aqua;
   }
   
-  #e{
-    border: .2px solid black;
+  .portionTwo div:nth-child(1) {
+    border: .5px solid black;
     background: purple;
   }
   
-  #f{
-    border: .2px solid black;
+  .portionTwo div:nth-child(2) {
+    border: .5px solid black;
     background: orange;
   }
-  
-  #g{
-    border: .2px solid black;
+
+  .portionTwo div:nth-child(3) {
+    border: .5px solid black;
     background: crimson;
   } 
   
-  #h{
-    border: .2px solid black;
+  .portionTwo div:nth-child(4) {
+    border: .5px solid black;
     background: violet;
   }
   
-  #i{
-    border: .2px solid black;
+  footer {
+    border: .5px solid black;
     background: olive;
   }
 }
-
